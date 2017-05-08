@@ -103,7 +103,7 @@ def bubble_sort(list):
     # loop through the list, and swap them out
 ```
 
-** Step 2 **
+**Step 2**
 
 So we have written a function called ```bubble_sort```, that takes a list as an argument. We have a while loop that says: while this list is not sorted, loop through the list, and swap out the values:
 
@@ -137,7 +137,7 @@ Once we are done with this, we simply return our newly sorted list.
 
 > Why do we need the bubble variable? try doing it without it! If you set the value of ```list[i+1] ``` to ```list[i]``` directly, then you will no longer have reference to the original value of list[i+1]. The reason why we call this algorithm "Bubble sort", is because we are essentially "popping the right value of the array out into a bubble" temporarily, while we swap it with the value on the left.
 
-** Step 3 **
+**Step 3**
 
 For our final step, we need a way to actually tell whether or not the list is sorted! Let's create a seperate function that returns True or False depending on whether or not the list is sorted:
 
@@ -155,7 +155,7 @@ def sorted(list):
     return True
 ```
 
-** All together now **
+**All together now**
 ``` python
 # we should have our sorted function
 def sort(list:
